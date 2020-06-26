@@ -8,6 +8,21 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 
+.menu {
+  margin: 0;
+  padding: 10px 20px 0 0;
+}
+
+@media screen and (min-width: 714px) {
+  .menu {
+    padding: 40px 10% 0 0;
+  }
+}
+
+.lang-link {
+  font-size: 28px;
+}
+
 /* Titles */
 
 h1, h2, h3, h4, h5, h6 {
